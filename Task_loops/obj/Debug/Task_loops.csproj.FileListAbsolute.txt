@@ -5,3 +5,10 @@ C:\Users\user\Desktop\Orange\C#\Task_loops\bin\Debug\Task_loops.exe
 C:\Users\user\Desktop\Orange\C#\Task_loops\bin\Debug\Task_loops.pdb
 C:\Users\user\Desktop\Orange\C#\Task_loops\obj\Debug\Task_loops.exe
 C:\Users\user\Desktop\Orange\C#\Task_loops\obj\Debug\Task_loops.pdb
+D:\Orange\C_Orange\Task_loops\bin\Debug\Task_loops.exe.config
+D:\Orange\C_Orange\Task_loops\bin\Debug\Task_loops.exe
+D:\Orange\C_Orange\Task_loops\bin\Debug\Task_loops.pdb
+D:\Orange\C_Orange\Task_loops\obj\Debug\Task_loops.csproj.AssemblyReference.cache
+D:\Orange\C_Orange\Task_loops\obj\Debug\Task_loops.csproj.CoreCompileInputs.cache
+D:\Orange\C_Orange\Task_loops\obj\Debug\Task_loops.exe
+D:\Orange\C_Orange\Task_loops\obj\Debug\Task_loops.pdb

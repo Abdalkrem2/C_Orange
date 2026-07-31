@@ -1,0 +1,7 @@
+D:\Orange\C_Orange\Collections\Collections\bin\Debug\Collections.exe.config
+D:\Orange\C_Orange\Collections\Collections\bin\Debug\Collections.exe
+D:\Orange\C_Orange\Collections\Collections\bin\Debug\Collections.pdb
+D:\Orange\C_Orange\Collections\Collections\obj\Debug\Collections.csproj.AssemblyReference.cache
+D:\Orange\C_Orange\Collections\Collections\obj\Debug\Collections.csproj.CoreCompileInputs.cache
+D:\Orange\C_Orange\Collections\Collections\obj\Debug\Collections.exe
+D:\Orange\C_Orange\Collections\Collections\obj\Debug\Collections.pdb
