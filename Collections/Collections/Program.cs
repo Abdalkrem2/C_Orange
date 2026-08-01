@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
@@ -474,6 +475,254 @@ namespace Collections
             Console.WriteLine(sum - numSum);
         }
 
+        //5
+        static void SplitListBalanced(int[] nums)
+        {
+            int bestIndex = -1;
+            int minDiff = int.MaxValue;
+
+            for (int split = 1; split < nums.Length; split++)
+            {
+                int leftSum = 0;
+                int rightSum = 0;
+
+                for (int i = 0; i < split; i++)
+                    leftSum += nums[i];
+
+                for (int i = split; i < nums.Length; i++)
+                    rightSum += nums[i];
+
+                int diff = Math.Abs(leftSum - rightSum);
+
+                if (diff < minDiff)
+                {
+                    minDiff = diff;
+                    bestIndex = split;
+                }
+            }
+
+            Console.WriteLine("Best Split Index = " + bestIndex);
+        }//راجع
+
+        //6
+        static void LongestIncreasingSequence(int[] nums)
+        {
+            int start = 0;
+            int maxStart = 0;
+            int maxLength = 1;
+
+            for (int i = 1; i < nums.Length; i++)
+            {
+                if (nums[i] > nums[i - 1])
+                {
+                    if (i - start + 1 > maxLength)
+                    {
+                        maxLength = i - start + 1;
+                        maxStart = start;
+                    }
+                }
+                else
+                {
+                    start = i;
+                }
+            }
+
+            for (int i = maxStart; i < maxStart + maxLength; i++)
+            {
+                Console.Write(nums[i] + " ");
+            }
+        }
+
+        //7
+        static void DuplicateDistance(int[] nums)
+        {
+            Dictionary<int, int> map = new Dictionary<int, int>();
+
+            int minDistance = int.MaxValue;
+
+            foreach (int n in nums)
+            {
+            }
+
+            for (int i = 0; i < nums.Length; i++)
+            {
+                if (map.ContainsKey(nums[i]))
+                {
+                    int distance = i - map[nums[i]];
+
+                    if (distance < minDistance)
+                        minDistance = distance;
+                }
+
+                map[nums[i]] = i;
+            }
+
+            Console.WriteLine(minDistance);
+        }
+
+        //8
+        static void ReorderByRule(int[] nums)
+        {
+            List<int> result = new List<int>();
+
+            foreach (int n in nums)
+            {
+                if (n % 2 == 0)
+                    result.Add(n);
+            }
+
+            foreach (int n in nums)
+            {
+                if (n % 2 != 0)
+                    result.Add(n);
+            }
+
+            foreach (int n in result)
+            {
+                Console.Write(n + " ");
+            }
+        }
+
+        //9
+        static void PeaksFinder(int[] nums)
+        {
+            for (int i = 1; i < nums.Length - 1; i++)
+            {
+                if (nums[i] > nums[i - 1] &&
+                    nums[i] > nums[i + 1])
+                {
+                    Console.Write(nums[i] + " ");
+                }
+            }
+        }
+
+        //10
+        static void TwoSum(int[] nums, int target)
+        {
+            Dictionary<int, int> map = new Dictionary<int, int>();
+
+            for (int i = 0; i < nums.Length; i++)
+            {
+                int needed = target - nums[i];
+
+                if (map.ContainsKey(needed))
+                {
+                    Console.WriteLine(
+                        $"Found: {needed} + {nums[i]} = {target}"
+                    );
+                    return;
+                }
+
+                map[nums[i]] = i;
+            }
+
+            Console.WriteLine("No pair found");
+        }
+
+        //11 ارجع حله سهل بس فيه فكرة
+
+
+        //12
+        static void AlternatingMerge(int[] a, int[] b)
+        {
+            List<int> result = new List<int>();
+
+            int i = 0;
+            int j = 0;
+
+            while (i < a.Length || j < b.Length)
+            {
+                if (i < a.Length)
+                {
+                    result.Add(a[i]);
+                    i++;
+                }
+
+                if (j < b.Length)
+                {
+                    result.Add(b[j]);
+                    j++;
+                }
+            }
+
+
+            foreach (int n in result)
+            {
+                Console.Write(n + " ");
+            }
+        }
+
+        //13
+        static void CountFrequencies(int[] nums)
+        {
+            int max = nums.Max();
+
+            int[] freq = new int[max + 1];
+
+
+          
+            for (int i = 0; i < nums.Length; i++)
+            {
+                freq[nums[i]]++;
+            }
+
+
+            
+            for (int i = 0; i < freq.Length; i++)
+            {
+                if (freq[i] > 0)
+                {
+                    Console.WriteLine(i + " -> " + freq[i]);
+                }
+            }
+        }
+
+        //14
+        static void SecondMaximum(int[] nums)
+        {
+            int largest = int.MinValue;
+            int secondLargest = int.MinValue;
+
+
+            foreach (int n in nums)
+            {
+                if (n > largest)
+                {
+                    secondLargest = largest;
+                    largest = n;
+                }
+                else if (n > secondLargest && n != largest)
+                {
+                    secondLargest = n;
+                }
+            }
+
+
+            Console.WriteLine(secondLargest);
+        }
+
+        //16
+        static void ReversePart(int[] nums, int start, int end)
+        {
+            while (start < end)
+            {
+                int temp = nums[start];
+
+                nums[start] = nums[end];
+
+                nums[end] = temp;
+
+
+                start++;
+                end--;
+            }
+
+
+            foreach (int n in nums)
+            {
+                Console.Write(n + " ");
+            }
+        }
         static void Main(string[] args)
         {
             //List<int> scores = new List<int> { 90, 40, 75, 30, 100, 50 };
