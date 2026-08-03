@@ -1,0 +1,7 @@
+D:\Orange\C_Orange\OOP_Task1\OOP_Task1\bin\Debug\OOP_Task1.exe.config
+D:\Orange\C_Orange\OOP_Task1\OOP_Task1\bin\Debug\OOP_Task1.exe
+D:\Orange\C_Orange\OOP_Task1\OOP_Task1\bin\Debug\OOP_Task1.pdb
+D:\Orange\C_Orange\OOP_Task1\OOP_Task1\obj\Debug\OOP_Task1.csproj.AssemblyReference.cache
+D:\Orange\C_Orange\OOP_Task1\OOP_Task1\obj\Debug\OOP_Task1.csproj.CoreCompileInputs.cache
+D:\Orange\C_Orange\OOP_Task1\OOP_Task1\obj\Debug\OOP_Task1.exe
+D:\Orange\C_Orange\OOP_Task1\OOP_Task1\obj\Debug\OOP_Task1.pdb
