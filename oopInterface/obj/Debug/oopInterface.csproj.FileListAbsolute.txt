@@ -1,0 +1,7 @@
+C:\Users\user\Desktop\Orange\C#\oopInterface\bin\Debug\oopInterface.exe.config
+C:\Users\user\Desktop\Orange\C#\oopInterface\bin\Debug\oopInterface.exe
+C:\Users\user\Desktop\Orange\C#\oopInterface\bin\Debug\oopInterface.pdb
+C:\Users\user\Desktop\Orange\C#\oopInterface\obj\Debug\oopInterface.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Orange\C#\oopInterface\obj\Debug\oopInterface.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Orange\C#\oopInterface\obj\Debug\oopInterface.exe
+C:\Users\user\Desktop\Orange\C#\oopInterface\obj\Debug\oopInterface.pdb

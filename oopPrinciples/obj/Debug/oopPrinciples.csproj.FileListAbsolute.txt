@@ -1,0 +1,7 @@
+C:\Users\user\Desktop\Orange\C#\oopPrinciples\obj\Debug\oopPrinciples.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Orange\C#\oopPrinciples\obj\Debug\oopPrinciples.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Orange\C#\oopPrinciples\bin\Debug\oopPrinciples.exe.config
+C:\Users\user\Desktop\Orange\C#\oopPrinciples\bin\Debug\oopPrinciples.exe
+C:\Users\user\Desktop\Orange\C#\oopPrinciples\bin\Debug\oopPrinciples.pdb
+C:\Users\user\Desktop\Orange\C#\oopPrinciples\obj\Debug\oopPrinciples.exe
+C:\Users\user\Desktop\Orange\C#\oopPrinciples\obj\Debug\oopPrinciples.pdb

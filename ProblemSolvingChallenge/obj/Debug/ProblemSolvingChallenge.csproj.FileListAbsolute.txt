@@ -1,0 +1,7 @@
+C:\Users\user\Desktop\Orange\C#\ProblemSolvingChallenge\obj\Debug\ProblemSolvingChallenge.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Orange\C#\ProblemSolvingChallenge\obj\Debug\ProblemSolvingChallenge.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Orange\C#\ProblemSolvingChallenge\bin\Debug\ProblemSolvingChallenge.exe.config
+C:\Users\user\Desktop\Orange\C#\ProblemSolvingChallenge\bin\Debug\ProblemSolvingChallenge.exe
+C:\Users\user\Desktop\Orange\C#\ProblemSolvingChallenge\bin\Debug\ProblemSolvingChallenge.pdb
+C:\Users\user\Desktop\Orange\C#\ProblemSolvingChallenge\obj\Debug\ProblemSolvingChallenge.exe
+C:\Users\user\Desktop\Orange\C#\ProblemSolvingChallenge\obj\Debug\ProblemSolvingChallenge.pdb

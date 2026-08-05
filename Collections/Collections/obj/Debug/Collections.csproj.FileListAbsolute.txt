@@ -5,3 +5,10 @@ D:\Orange\C_Orange\Collections\Collections\obj\Debug\Collections.csproj.Assembly
 D:\Orange\C_Orange\Collections\Collections\obj\Debug\Collections.csproj.CoreCompileInputs.cache
 D:\Orange\C_Orange\Collections\Collections\obj\Debug\Collections.exe
 D:\Orange\C_Orange\Collections\Collections\obj\Debug\Collections.pdb
+C:\Users\user\Desktop\Orange\C#\Collections\Collections\bin\Debug\Collections.exe.config
+C:\Users\user\Desktop\Orange\C#\Collections\Collections\bin\Debug\Collections.exe
+C:\Users\user\Desktop\Orange\C#\Collections\Collections\bin\Debug\Collections.pdb
+C:\Users\user\Desktop\Orange\C#\Collections\Collections\obj\Debug\Collections.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Orange\C#\Collections\Collections\obj\Debug\Collections.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Orange\C#\Collections\Collections\obj\Debug\Collections.exe
+C:\Users\user\Desktop\Orange\C#\Collections\Collections\obj\Debug\Collections.pdb

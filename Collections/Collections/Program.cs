@@ -701,6 +701,35 @@ namespace Collections
             Console.WriteLine(secondLargest);
         }
 
+        //15
+        static void SubarraySum(int[]nums,int target)
+        {
+            int p1 = 0, p2 = 0;
+            int sum = 0;
+            while (p1 < nums.Length)
+            {
+                if (sum > target)
+                {
+                    sum -= nums[p1];
+                    p1++;
+                }
+                else
+                {
+                    sum += nums[p2];
+                    p2++;
+                }
+                if (sum == target)
+                {
+                    for(int i=p1; i<p2; i++)
+                    {
+                        Console.Write(nums[i]+" ");
+                    }
+                    break;
+                }
+                
+            }
+        }
+
         //16
         static void ReversePart(int[] nums, int start, int end)
         {
@@ -723,10 +752,37 @@ namespace Collections
                 Console.Write(n + " ");
             }
         }
+
+        //17
+
+        //18
+
+
+        //20
+        static void RemoveNumber(int[] nums, int target)
+        {
+            int write = 0;
+
+            for (int read = 0; read < nums.Length; read++)
+            {
+                if (nums[read] != target)
+                {
+                    nums[write] = nums[read];
+                    write++;
+                }
+            }
+
+           
+            for (int i = 0; i < write; i++)
+            {
+                Console.Write(nums[i] + " ");
+            }
+        }
+
         static void Main(string[] args)
         {
             //List<int> scores = new List<int> { 90, 40, 75, 30, 100, 50 };
-            MissingNumberDetective(new int[] { 1, 2,4,5 });
+            SubarraySum(new int[] { 1, 2,4,5 },9);
 
 
         }
