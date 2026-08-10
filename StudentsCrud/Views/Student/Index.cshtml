@@ -1,0 +1,37 @@
+﻿@model List<StudentsCrud.Models.Student>
+<link rel="stylesheet" href="~/css/site.css" />
+<div class="container">
+
+<h1>قائمة الطلاب</h1>
+
+<a asp-action="Create" class="btn btn-primary mb-3">إضافة طالب</a>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>الاسم</th>
+            <th>العمر</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var student in Model)
+        {
+            <tr>
+                <td>@student.Name</td>
+                <td>@student.Age</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@student.Id" class="btn btn-sm btn-warning">تعديل</a>
+
+                    <form asp-action="Delete" asp-route-id="@student.Id" method="post" style="display:inline">
+                        <button type="submit" class="btn btn-sm btn-danger"
+                                onclick="return confirm('متأكد بدك تحذف @student.Name؟')">
+                            حذف
+                        </button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+</div>

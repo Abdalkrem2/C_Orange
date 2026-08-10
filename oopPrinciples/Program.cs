@@ -8,6 +8,46 @@ namespace oopPrinciples
 {
     internal class Program
     {
+        public static void  r(int[] arr)
+        {
+            int max = 0, avrg = 0;
+            List<int>even=new List<int>();
+            List<int> odd = new List<int>();
+           
+            for (int i = 0; i < arr.Length; i++) { 
+                if(arr[i] > max)
+                {
+                    max = arr[i];
+                }
+                avrg += arr[i];
+
+                if (arr[i] % 2 == 0)
+                {
+                    even.Add(arr[i]);
+                }
+                else
+                {
+                    odd.Add(arr[i]);
+                }
+
+            }
+            avrg /= arr.Length;
+            Console.WriteLine("avrg= " + avrg);
+            Console.WriteLine("Max= " + max);
+            Console.WriteLine("Even: ");
+            foreach (int i in even) 
+            {
+                Console.Write(i);
+            }
+            Console.WriteLine("Odd");
+            foreach(int i in odd)
+            {
+                Console.Write(i);
+            }
+
+
+
+        }
 
         //1
        public static class MathUtilities
@@ -234,16 +274,20 @@ namespace oopPrinciples
 
         static void Main(string[] args)
         {
-            int x=MathUtilities.SquareRoot(25);
-            Console.WriteLine(x);
+           int []prices = new[] { 1,2,3,4,5,6,7, };
+            r(prices);
 
-            Company.CompanyName = "Microsoft";
 
-            Company emp1 = new Company();
-            emp1.EmployeeName = "Ali";
+            //int x=MathUtilities.SquareRoot(25);
+            //Console.WriteLine(x);
 
-            Company emp2 = new Company();
-            emp2.EmployeeName = "Sara";
+            //Company.CompanyName = "Microsoft";
+
+            //Company emp1 = new Company();
+            //emp1.EmployeeName = "Ali";
+
+            //Company emp2 = new Company();
+            //emp2.EmployeeName = "Sara";
         }
     }
 }

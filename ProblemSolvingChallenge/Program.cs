@@ -59,10 +59,20 @@ namespace ProblemSolvingChallenge
             bool up=false;bool down=false;
             for (int i = 0; i < nums.Length; i++) 
             {
-                if (nums[i] > nums[i + 1])
+                if (!up && !down)
                 {
 
+                }
+                if (nums[i] > nums[i + 1])
+                {
+                    up = true;
+                    down = false;
                     count++;
+                }
+                else
+                {
+                    down= true;
+                    up = false;
                 }
             }
 
