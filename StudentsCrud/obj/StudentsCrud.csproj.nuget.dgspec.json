@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\Orange\\C#\\StudentsCrud\\StudentsCrud.csproj": {}
+    "D:\\Orange\\C_Orange\\StudentsCrud\\StudentsCrud.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\Orange\\C#\\StudentsCrud\\StudentsCrud.csproj": {
+    "D:\\Orange\\C_Orange\\StudentsCrud\\StudentsCrud.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\Orange\\C#\\StudentsCrud\\StudentsCrud.csproj",
+        "projectUniqueName": "D:\\Orange\\C_Orange\\StudentsCrud\\StudentsCrud.csproj",
         "projectName": "StudentsCrud",
-        "projectPath": "C:\\Users\\user\\Desktop\\Orange\\C#\\StudentsCrud\\StudentsCrud.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\Orange\\C#\\StudentsCrud\\obj\\",
+        "projectPath": "D:\\Orange\\C_Orange\\StudentsCrud\\StudentsCrud.csproj",
+        "packagesPath": "C:\\Users\\abdal\\.nuget\\packages\\",
+        "outputPath": "D:\\Orange\\C_Orange\\StudentsCrud\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\abdal\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -96,7 +96,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.302/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
